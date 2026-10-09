@@ -1,0 +1,8 @@
+<?php
+
+// SESSION_START();
+require_once 'includes/auth.php';
+$auth = new Auth();
+
+  $auth->logout();
+?>
