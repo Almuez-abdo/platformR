@@ -11,7 +11,7 @@
    ```sql
    CREATE DATABASE educational_platform CHARACTER SET utf8mb4;
    ```
-   ثم استورد ملف `educational_platform.sql`:
+   ثم استورد ملف `educational_platform.sql` (هيكل الجداول فقط، بدون بيانات):
    - phpMyAdmin ← استيراد ← `educational_platform.sql`
 3. إعداد الاتصال في `config/database.php` (الوضع الافتراضي: `root` بدون كلمة سر)
 4. افتح: `http://localhost/platformR/register.php` لإنشاء حساب ثم `login.php`
